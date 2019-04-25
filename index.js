@@ -14,3 +14,4 @@ function returnNewFunctionOf(functionToBeCopied, thisValue){
   const functionCopy = functionToBeCopied.bind(thisValue);
   return functionCopy;
 }
+// .
