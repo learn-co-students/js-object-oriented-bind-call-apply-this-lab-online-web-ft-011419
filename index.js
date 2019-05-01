@@ -9,7 +9,7 @@ function setThisWithApply(fn, thisValue, args){
   return fn.apply(thisValue, args)
 }
 
-
+//resubmit
 function returnNewFunctionOf(functionToBeCopied, thisValue){
   return functionToBeCopied.bind(thisValue)
 }
